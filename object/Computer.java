@@ -11,6 +11,10 @@ public class Computer {
 
     
     public Computer() {
+        this.cpu = "2GHz dual core";
+        this.model = "Gigabyte 1000";
+        this.ram = 8;
+        this.yearMade = 2020;
     }
 
     public Computer(String cpu, String model, Integer ram, Integer yearMade) {
