@@ -50,6 +50,18 @@ public class App {
         machines.add(computer2);
         machines.add(laptop01);
 
+        // for statement to display machines
+        for(int i = 0; i < machines.size(); i++) {
+            System.out.println("Machine " + i + " : ");
+            machines.get(i).displaySpec();
+        }
+        // compile
+        // javac -d target --source-path . ./*.java  object/*.java 
+
+        // run
+        // java -cp target App
+
+
 
     }
 }
